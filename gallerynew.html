@@ -6,60 +6,38 @@
     <link rel="stylesheet" href="gallerynew.css"/>
     <title>Document</title>
 </head>
-<body>p[0-=]
-    <div class="text32">
-        <div class="glimpse">GLIMPSE<br/>
-            <div class="events">events</div>
-    </div>
-        <!-- <div class="events">events</div> -->
-        <div class="of-past">OF PAST</div>
-    </div>
-    <div class="wholegallery">
-    <div class="scroll-container" style="margin-left:10%">
-        <div class="scroll-content">
-            <!-- 1st-->
-             <div class="slide"><img src="pics/image.png"></div> 
-            <div class="slide"><img src="pics/image1.png"></div>
-            <div class="slide"><img src="pics/image3.jpeg"></div>
-            <div class="slide"><img src="pics/image.png"></div> 
-            <div class="slide"><img src="pics/image1.png"></div>
-            <div class="slide"><img src="pics/image3.jpeg"></div>
-        </div>
-    </div>
-        <!--2nd-->
-        <div class="scroll-container">
-        <div class="scroll-content">
-             <!-- <div class="slide"><img src="C:\Users\Lenovo\Desktop\web_gallery\pics\image9.jpeg"></div>  -->
-             <div class="slide"><img src="pics/image9.jpeg"></div> 
-            <div class="slide"><img src="pics/image5.jpeg"></div>
-            <div class="slide"><img src="pics/image6.jpeg"></div> 
-            <div class="slide"><img src="pics/image9.jpeg"></div> 
-            <div class="slide"><img src="pics/image5.jpeg"></div>
-            <div class="slide"><img src="pics/image6.jpeg"></div> 
-        </div>
-    </div>
-        <!--3rd-->
-        <div class="scroll-container" style="margin-right:10%">
-        <div class="scroll-content">
-             <div class="slide"><img src="pics/image7.jpeg"></div> 
-            <div class="slide"><img src="pics/image8.jpeg"></div>
-            <div class="slide"><img src="pics/image9.jpeg"></div> 
-            <div class="slide"><img src="pics/image7.jpeg"></div> 
-            <div class="slide"><img src="pics/image8.jpeg"></div>
-            <div class="slide"><img src="pics/image9.jpeg"></div>
-        </div>
-    </div>
-</div>
-    <script>
-        document.addEventListener("DOMContentLoaded",()=>{
-            const scrollContent=document.querySelector('.scroll-content');
-            const images=scrollContent.children;
-            const numImages=images.length;
-            for(let i=0;i<numImages;i++){
-                let clone=images[i].cloneNode(true);
-                scrollContent.appendChild(clone);
-            }
-        })
-    </script>
+<body>
+    <section class="diyagallery" id="diyaGallery">
+        <div class="diya">
+          <div class="text32" style="font-family: technical;">
+            GLIMPSE OF PAST
+            <span style="font-family: technopath;">EVENTS</span>
+            </div>
+              <div class="gallery-container">
+                <div class="gallery">
+                    <div class="item" ><img src="photoss1\image.png"></div>
+                    <div class="item"><img src="photoss1\image1.jpg"></div>
+                    <div class="item"><img src="photoss1\image2.png"></div>
+                    <div class="item"><img src="photoss1\image3.jpeg"></div>
+                    <div class="item"><img src="photoss1\image4.jpeg"></div>
+                    <div class="item"><img src="photoss1\image5.jpeg"></div>
+                    <div class="item"><img src="photoss1\image6.jpeg"></div>
+                    <div class="item"><img src="photoss1\image7.jpg"></div>
+                    <div class="item"><img src="photoss1\image8.jpeg"></div>
+           
+                    <div class="item" ><img src="photoss1\image.png"></div>
+                    <div class="item"><img src="photoss1\image1.jpg"></div>
+                    <div class="item"><img src="photoss1\image2.png"></div>
+                    <div class="item"><img src="photoss1\image3.jpeg"></div>
+                    <div class="item"><img src="photoss1\image4.jpeg"></div>
+                    <div class="item"><img src="photoss1\image5.jpeg"></div>
+                    <div class="item"><img src="photoss1\image6.jpeg"></div>
+                    <div class="item"><img src="photoss1\image7.jpg"></div>
+                    <div class="item"><img src="photoss1\image8.jpeg"></div>
+                </div>
+            </div>
+          </div>
+          </section>
+  
 </body>
 </html> 
